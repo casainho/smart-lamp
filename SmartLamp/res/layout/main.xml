@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     
+     
+        	<ToggleButton android:layout_height="wrap_content"
+	android:text="BT module name change"
+	android:id="@+id/btModuleNameChange"
+	android:layout_width="fill_parent"
+	android:layout_marginTop="50px"
+	android:layout_marginLeft="35px"
+   	android:layout_marginRight="35px"
+   	android:minHeight="15px"/>
+     
+     
+   	
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   
+	<SeekBar android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:layout_marginTop="50px"
+   	android:id="@+id/seekbarr"
+   	android:max="10000"
+   	android:progress="1"
+   	android:layout_marginLeft="35px"
+   	android:layout_marginRight="35px"
+   	android:minHeight="20px"/>
+
+
+	<SeekBar android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:layout_marginTop="50px"
+   	android:id="@+id/seekbarg"
+   	android:max="10000"
+   	android:progress="1"
+   	android:layout_marginLeft="35px"
+   	android:layout_marginRight="35px"
+   	android:minHeight="20px"/>
+
+	<SeekBar android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:layout_marginTop="50px"
+   	android:id="@+id/seekbarb"
+   	android:max="10000"
+   	android:progress="1"
+   	android:layout_marginLeft="35px"
+   	android:layout_marginRight="35px"
+   	android:minHeight="20px"/>
+   	
+	<ToggleButton android:layout_height="wrap_content"
+	android:text="On/Off"
+	android:id="@+id/buttonOnOff"
+	android:layout_width="fill_parent"
+	android:layout_marginTop="100px"
+	android:layout_marginLeft="35px"
+   	android:layout_marginRight="35px"
+   	android:minHeight="50px"/>
+   	
+  
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Casainho Wireless Mood Lamp</string>
+    <string name="bluetooth_device_name">linvor</string>
+    <string name="title_find_devices">Searching for the device, wait a moment please.</string>
+</resources>
