@@ -16,8 +16,7 @@ import android.widget.SeekBar;
 import android.widget.Toast;
 import android.os.Handler;
 
-public class SmartLamp
-extends Activity
+public class SmartLamp extends Activity
 implements SeekBar.OnSeekBarChangeListener {
 
 	private static final String TAG = "SmartLamp";
@@ -65,7 +64,8 @@ implements SeekBar.OnSeekBarChangeListener {
         
         // Set up the window layout
         setContentView(R.layout.main);
-        
+        //TODO: Comment all code, and test with with new layout
+        //setContentView(R.layout.colorpicker);
         mDialog = ProgressDialog.show(this, "", 
         		this.getString(R.string.title_find_devices), true);
         
@@ -98,12 +98,12 @@ implements SeekBar.OnSeekBarChangeListener {
 
 
         // Bind the action for the save button.
-        findViewById(R.id.btModuleNameChange).setOnClickListener(new View.OnClickListener() {
+        /*findViewById(R.id.btModuleNameChange).setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // When the button is clicked
                 sendMessage("z\n");
             }
-        });
+        }); */
         
         // Get local Bluetooth adapter
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
@@ -139,7 +139,7 @@ implements SeekBar.OnSeekBarChangeListener {
             return;
         }
 
-    	byte[] messageByteArray; 	
+    	byte[] messageByteArray = null; 	
     	
         // Check that there's actually something to send
         if (messageByteArray != null) {
